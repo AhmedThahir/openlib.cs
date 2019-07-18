@@ -1,0 +1,11 @@
+{% assign objects = include.references %}
+{% assign count = objects | size %}
+{% if count != 0 %}
+    <h3>{{ include.name }}</h3>
+    <ul>
+        {% for object in objects %}
+            <li><a href="{{object.url}}">{{object.title}}, <i>{{object.author}}</i></a></li>
+        {% endfor %}
+    </ul>
+
+{% endif %}
