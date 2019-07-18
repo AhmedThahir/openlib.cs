@@ -5,9 +5,8 @@
     <p>This course has the following prerequisites : </p>
     <ul>
         {% for c in prereqs.into %}
-            {% assign course = site.courses | where:"id", c %}
-            {{ courses }}
-            <li><a href="{{ course.url }}">{{ c }}</a></li>
+            {% assign course = site.courses | where: "code", c | first %}
+            <li><a href="{{ course.url | relative_url }}">{{ c }}</a></li>
         {% endfor %}
     </ul>
 {% else %}
@@ -18,9 +17,8 @@
     <p>This course is a prerequisite for the following courses : </p>
     <ul>
         {% for c in prereqs.onto %}
-            {% assign course = site.courses | where:"id", c %}
-            {{ courses }}
-            <li><a href="{{ course.url }}">{{ c }}</a></li>
+        {% assign course = site.courses | where : "code", c | first %}
+        <li><a href="{{ course.url | relative_url }}">{{ c }}</a></li>
         {% endfor %}
     </ul>
 {% endif %}

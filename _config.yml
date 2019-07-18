@@ -27,7 +27,7 @@ exclude:
 collections:
   courses:
       output: true
-      permalink: /:collection/:title
+      permalink: /:collection/:name
 
 defaults:
     -
