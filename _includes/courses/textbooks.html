@@ -1,0 +1,11 @@
+{% assign textbooks = include.textbooks %}
+{% assign count = textbooks | size %}
+{% if count != 0 %}
+    <h3>Textbooks</h3>
+    <ul>
+        {% for textbook in textbooks %}
+            <li><a href="{{texbook.link}}">{{textbook.title}}, <i>{{textbook.authors}}</i> [{{textbook.edition}} ({{textbook.year}})]</a></li>
+        {% endfor %}
+    </ul>
+
+{% endif %}
