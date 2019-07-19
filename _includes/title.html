@@ -1,0 +1,10 @@
+{% assign title = page.title %}
+{% if page.code %}
+    {% assign title = title | append: " - " | append: "Courses" %}
+{% endif %}
+{% if page.url != "/" %}
+    {% assign title = title | append: " - " | append: site.title %}
+{% else %}
+    {% assign title = site.title %}
+{% endif %}
+{{ title }}

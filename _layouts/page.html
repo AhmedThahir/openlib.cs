@@ -2,4 +2,11 @@
 layout : default
 ---
 
+{% if page.url == "/" %}
+    {% assign title = site.title %}
+{% else %}
+    {% assign title = page.title %}
+{% endif %}
+<h2 >{{ title }}</h2>
+
 {{content}}
