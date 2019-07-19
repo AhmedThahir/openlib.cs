@@ -8,18 +8,32 @@ courses (or their equivalents) at university.
 
 ### Usage
 
-A directory is maintained for each course within which is a README that provides information regarding the course. The README may have the following sections if applicable :
+A page is maintained for each course which provides information on some of the following topics with regard to the course :
+
 *   **Textbooks**
+    
     List of textbooks with links to their soft copies
+
 *   **Source Code**
+
     Implementation of course concepts
+
 *   **Videos**
+
     List of links of video explanations of course concepts
+
 *   **Websites**
+
     Useful websites
+
 *   **Articles**
+
     Cheat-sheets, tutorials, blog-posts etc.
+
 *   **Communities**
+
     Online forums related to the course concepts
+
 *   **Apps**
+
     Mobile apps that may enrich the learning experience
