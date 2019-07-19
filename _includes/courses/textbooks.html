@@ -4,7 +4,7 @@
     <h3>Textbooks</h3>
     <ul>
         {% for textbook in textbooks %}
-            <li><a href="{{texbook.link}}">{{textbook.title}}, <i>{{textbook.authors}}</i> [{{textbook.edition}} ({{textbook.year}})]</a></li>
+            <li><a href="{{textbook.url}}">{{textbook.title}}, <i>{{textbook.authors}}</i> [{{textbook.edition}} ({{textbook.year}})]</a></li>
         {% endfor %}
     </ul>
 
