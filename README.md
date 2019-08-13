@@ -99,6 +99,6 @@ OpenLib.cs is a collaborative project to make textbooks, references, solution ma
 ## Contributing
 
 * Kindly see the [guidelines](CONTRIBUTING.md) before contributing to this repo.
-* You can also contribute by sharing! :relaxed:
-* Share this list with your batchmates, friends or anyone just interested in Computer Science! :hearts:
+* You can also contribute by sharing! 
+* Share this list with your batchmates, friends or anyone just interested in Computer Science! 
 * By connecting more people with information, you are doing everyone a HUGE favor.

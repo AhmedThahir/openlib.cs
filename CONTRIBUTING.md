@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-:+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
+First off, thanks for taking the time to contribute! 
 
 The following is a set of guidelines for contributing to [OpenLib.cs](https://github.com/bpdc-acm/OpenLib.cs), which are hosted in the [BPDC ACM Organization](https://github.com/bpdc-acm) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request.
 
@@ -17,7 +17,7 @@ Please note that this repository is a **curated** list which means it's not a co
 
 ### Reporting Issues
 
-This section guides you through submitting a issue, following these guidelines helps maintainers and the community understand your report :pencil: and find related issues :mag_right:.
+This section guides you through submitting a issue, following these guidelines helps maintainers and the community understand your report and find related issues.
 
 Before submitting an issue, please see [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information:
 
@@ -28,7 +28,7 @@ Before submitting an issue, please see [GitHub issues](https://guides.github.com
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement suggestion, including new courses and minor improvements to existing lists. Following these guidelines helps maintainers and the community understand your suggestion :pencil: and find related suggestions :mag_right:.
+This section guides you through submitting an enhancement suggestion, including new courses and minor improvements to existing lists. Following these guidelines helps maintainers and the community understand your suggestion and find related suggestions.
 
 Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com/features/issues/). Create an issue and provide the following information:
 
